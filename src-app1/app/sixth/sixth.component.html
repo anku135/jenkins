@@ -1,0 +1,28 @@
+<h2>Sixth component</h2>
+
+<div><strong>id:</strong> {{product.id}}</div>
+<div><strong>title:</strong> {{product.title}}</div>
+<div><strong>price:</strong> {{product.price}}</div>
+<div><strong>description:</strong> {{product.description}}</div>
+
+<hr>
+
+<div><strong>id:</strong> {{products[0].id}}</div>
+<div><strong>title:</strong> {{products[0].title}}</div>
+<div><strong>price:</strong> {{products[0].price}}</div>
+<div><strong>description:</strong> {{products[0].description}}</div>
+<div></div>
+<div><strong>id:</strong> {{products[1].id}}</div>
+<div><strong>title:</strong> {{products[1].title}}</div>
+<div><strong>price:</strong> {{products[1].price}}</div>
+<div><strong>description:</strong> {{products[1].description}}</div>
+<div></div>
+
+<hr>
+
+<div *ngFor="let product of products">
+  <div><strong>id:</strong> {{product.id}}</div>
+  <div><strong>title:</strong> {{product.title}}</div>
+  <div><strong>price:</strong> {{product.price}}</div>
+  <div><strong>description:</strong> {{product.description}}</div>
+</div>
