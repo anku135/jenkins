@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+  }
+  
+  div.mobile {
+    border: solid 3px blue;
+    padding: 20px;
+    width: 220px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #2178EB;
+  }
